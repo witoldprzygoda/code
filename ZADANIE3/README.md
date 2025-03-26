@@ -1,6 +1,5 @@
 # ZADANIE 3
 
-```markdown
 Napisz program, w którym przetestujesz, **jak szybko losowane są liczby** za pomocą:
 - `std::random_device`
 - `std::mt19937_64`
@@ -32,4 +31,3 @@ gdzie wcześniej zdefiniowano:
 
 Bardzo ciekawe będzie **porównanie**, gdy kompilujemy **bez** opcji `-O3` oraz **z** opcją `-O3`.
 Obserwuj różnicę w czasach wykonania dla `std::random_device` i `std::mt19937_64` przy różnych ustawieniach kompilacji.
-```
