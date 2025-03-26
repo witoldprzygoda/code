@@ -1,8 +1,6 @@
 # ZADANIE 3
 
 ```markdown
-# Zadanie
-
 Napisz program, w którym przetestujesz, **jak szybko losowane są liczby** za pomocą:
 - `std::random_device`
 - `std::mt19937_64`
