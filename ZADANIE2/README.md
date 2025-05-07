@@ -1,0 +1,3 @@
+### Zadanie 1
+
+Uzupełnij podany szkielet programu tak, aby działał następująco: dołącz odpowiednie nagłówki standardowej biblioteki (vector, algorithm, iostream), następnie zdefiniuj strukturę o nazwie AsciiCode zawierającą przeciążony operator funkcyjny int operator()(char c) const, który ma zwracać kod ASCII przekazanego znaku (najbezpieczniej rzuć parametr na unsigned char, a wynik na int). W funkcji main użyj std::transform, przekazując mu iteratory początku i końca wektora input, iterator początku wektora output oraz przenośny obiekt funkcyjny AsciiCode{}; dzięki temu transformacja wypełni output kodami ASCII znaków z input. Po wykonaniu programu na wejściu {'A','b','1','\n'} terminal powinien wypisać 65 98 49 10.
