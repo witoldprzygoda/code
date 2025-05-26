@@ -11,7 +11,7 @@ public:
 class View {
 public:
     // tu metoda niewirtualna show zgodnie z ideą NVI (Non-Virtual Interface)
-private:
+protected:
     virtual void rysuj(const std::string& d) // zaimplementuj razem z jakąś ramką ozdobną
 };
 
